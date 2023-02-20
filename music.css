@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #321e5e;
+
+  }
+  
+  h1 {
+    text-align: center;
+    color: #055FA6;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .album {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #7A1754;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: transform 0.5s;
+  }
+  
+  .album img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+  }
+  .album:hover {
+    transform: translateY(-10px);
+    background-color: #a13f7c;
+  }
+  
+  .album h2 {
+    font-size: 20px;
+    color: #192785;
+    margin: 0;
+  }
+  
+  .album p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    font-weight: bold;
+  }
